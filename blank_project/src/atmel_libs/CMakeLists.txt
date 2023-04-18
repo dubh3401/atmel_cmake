@@ -1,4 +1,4 @@
-set(LIB_NAME "same51")
+set(LIB_NAME "atmel_libs")
 
 set(LIB_SOURCES
 )
