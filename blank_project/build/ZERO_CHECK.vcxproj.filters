@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PC_Elisabeth\Documents\SBQ\creativity_day\blank_atmel_project\blank_project\blank_project\build\CMakeFiles\eb491f1dec3bca8bd9218086bf7f338f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{78AC59B5-D146-34A5-BE02-7763878A82E8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

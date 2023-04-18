@@ -1,0 +1,10 @@
+^C:\USERS\PC_ELISABETH\DOCUMENTS\SBQ\CREATIVITY_DAY\BLANK_ATMEL_PROJECT\BLANK_PROJECT\BLANK_PROJECT\BUILD\CMAKEFILES\EB491F1DEC3BCA8BD9218086BF7F338F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project -BC:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/testProj.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

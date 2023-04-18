@@ -1,0 +1,1 @@
+C:\MinGW\bin\ar.exe qc liblib_hal.a CMakeFiles/lib_hal.dir/src/hal_gpio.c.obj

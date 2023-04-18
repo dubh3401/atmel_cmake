@@ -1,0 +1,1 @@
+C:\MinGW\bin\ar.exe qc libatmel_start.a CMakeFiles/atmel_start.dir/atmel_start.c.obj CMakeFiles/atmel_start.dir/driver_init.c.obj

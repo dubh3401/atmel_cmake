@@ -1,0 +1,813 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+gcc.exe: error: unrecognized command line option '--target=arm-arm-none-eabi'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+gcc.exe: error: unrecognized command line option '--target=arm-arm-none-eabi'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc.exe: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc.exe: fatal error: no input files
+compilation terminated.
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++.exe: error: unrecognized command line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++.exe: error: unrecognized command line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++.exe: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++.exe: fatal error: no input files
+compilation terminated.
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_2a1e0/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2a1e0.dir\build.make CMakeFiles/cmTC_2a1e0.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a1e0.dir/CMakeCCompilerABI.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_2a1e0.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+CMakeFiles\cmTC_2a1e0.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_2a1e0.dir/CMakeCCompilerABI.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_2a1e0.dir/CMakeCCompilerABI.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2a1e0/fast' failed
+mingw32-make.exe: *** [cmTC_2a1e0/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_038a3/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_038a3.dir\build.make CMakeFiles/cmTC_038a3.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_038a3.dir/testCCompiler.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_038a3.dir\testCCompiler.c.obj -c C:\Users\PC_Elisabeth\Documents\SBQ\creativity_day\blank_atmel_project\blank_project\blank_project\build\CMakeFiles\CMakeTmp\testCCompiler.c
+CMakeFiles\cmTC_038a3.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_038a3.dir/testCCompiler.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_038a3.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_038a3/fast' failed
+mingw32-make.exe: *** [cmTC_038a3/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+gcc.exe: error: unrecognized command line option '--target=arm-arm-none-eabi'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+gcc.exe: error: unrecognized command line option '--target=arm-arm-none-eabi'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc.exe: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc.exe: fatal error: no input files
+compilation terminated.
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++.exe: error: unrecognized command line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++.exe: error: unrecognized command line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++.exe: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++.exe: fatal error: no input files
+compilation terminated.
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_f25de/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f25de.dir\build.make CMakeFiles/cmTC_f25de.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f25de.dir/CMakeCCompilerABI.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_f25de.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+CMakeFiles\cmTC_f25de.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_f25de.dir/CMakeCCompilerABI.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_f25de.dir/CMakeCCompilerABI.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f25de/fast' failed
+mingw32-make.exe: *** [cmTC_f25de/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_cb32e/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_cb32e.dir\build.make CMakeFiles/cmTC_cb32e.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb32e.dir/testCCompiler.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_cb32e.dir\testCCompiler.c.obj -c C:\Users\PC_Elisabeth\Documents\SBQ\creativity_day\blank_atmel_project\blank_project\blank_project\build\CMakeFiles\CMakeTmp\testCCompiler.c
+CMakeFiles\cmTC_cb32e.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_cb32e.dir/testCCompiler.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_cb32e.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cb32e/fast' failed
+mingw32-make.exe: *** [cmTC_cb32e/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+gcc.exe: error: unrecognized command line option '--target=arm-arm-none-eabi'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+gcc.exe: error: unrecognized command line option '--target=arm-arm-none-eabi'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc.exe: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc.exe: fatal error: no input files
+compilation terminated.
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++.exe: error: unrecognized command line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++.exe: error: unrecognized command line option '--ec++'; did you mean '-Weffc++'?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+g++.exe: error: unrecognized command line option '--target=arm-arm-none-eabi'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++.exe: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++.exe: fatal error: no input files
+compilation terminated.
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_d917b/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d917b.dir\build.make CMakeFiles/cmTC_d917b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d917b.dir/CMakeCCompilerABI.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_d917b.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+CMakeFiles\cmTC_d917b.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_d917b.dir/CMakeCCompilerABI.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_d917b.dir/CMakeCCompilerABI.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d917b/fast' failed
+mingw32-make.exe: *** [cmTC_d917b/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_7d833/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7d833.dir\build.make CMakeFiles/cmTC_7d833.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d833.dir/testCCompiler.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_7d833.dir\testCCompiler.c.obj -c C:\Users\PC_Elisabeth\Documents\SBQ\creativity_day\blank_atmel_project\blank_project\blank_project\build\CMakeFiles\CMakeTmp\testCCompiler.c
+CMakeFiles\cmTC_7d833.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_7d833.dir/testCCompiler.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_7d833.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7d833/fast' failed
+mingw32-make.exe: *** [cmTC_7d833/fast] Error 2
+
+
+
