@@ -1,6 +1,0 @@
-C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/testProj.dir
-C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/src/hal/CMakeFiles/lib_hal.dir
-C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/src/hal/utils/CMakeFiles/lib_utils.dir
-C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/src/CMakeFiles/atmel_start.dir

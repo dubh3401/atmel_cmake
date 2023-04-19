@@ -1,6 +1,9 @@
 set(LIB_NAME "lib_hal")
 
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/utils)
+add_subdirectory(
+    utils/
+)
+
 set(LIB_SOURCES
     src/hal_gpio.c
 )
