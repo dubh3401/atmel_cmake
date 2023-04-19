@@ -16,4 +16,4 @@ target_include_directories(${LIB_NAME}
     ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
-target_link_libraries(${LIB_NAME} PUBLIC atmel_libs)
+target_link_libraries(${LIB_NAME} PUBLIC atmel_libs lib_hri lib_config)

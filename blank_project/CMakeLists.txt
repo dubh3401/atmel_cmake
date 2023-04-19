@@ -16,8 +16,6 @@ list(
 
 add_definitions(-D__ATSAME51N20A__)
 
-add_subdirectory(src/hal)
-add_subdirectory(src/atmel_libs)
 add_subdirectory(src)
 
 add_executable(

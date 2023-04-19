@@ -4,9 +4,8 @@ int main(void)
 {
 	/* Initializes MCU, drivers and middleware */
 	atmel_start_init();
-	sdsd
-		/* Replace with your application code */
-		while (1)
+	/* Replace with your application code */
+	while (1)
 	{
 	}
 }

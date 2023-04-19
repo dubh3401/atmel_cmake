@@ -1,11 +1,10 @@
-set(LIB_NAME "lib_hri")
+set(LIB_NAME "libs_atmel_instance")
 
 set(LIB_SOURCES
 )
 
 set(LIB_HEADERS
-    hri_ac_e51.h
-    hri_e51.h
+    ac.h
 )
 
 add_library(${LIB_NAME} STATIC ${LIB_SOURCES} ${LIB_HEADERS})
@@ -15,5 +14,3 @@ target_include_directories(${LIB_NAME}
     PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}
 )
-
-target_link_libraries(${LIB_NAME} PUBLIC lib_hal)
