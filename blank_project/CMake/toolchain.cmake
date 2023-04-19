@@ -10,7 +10,6 @@ set(CMAKE_CXX_COMPILER ${TOOLCHAIN_PATH}/bin/arm-none-eabi-g++.exe)
 
 set(LINKER_SCRIPT "${CMAKE_CURRENT_SOURCE_DIR}/src/Device_Startup/same51n20a_flash.ld")
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -T ${LINKER_SCRIPT}")
-
 message("Compiler Version:" ${CMAKE_CXX_COMPILER_VERSION})
 
 add_compile_options(
@@ -20,6 +19,9 @@ add_compile_options(
     c
     -mthumb
     -std=gnu99
+    -g3
+    -Og
+    -nostdlib
     -mfloat-abi=softfp
     -mcpu=cortex-m4
     -mfpu=fpv4-sp-d16
@@ -27,7 +29,7 @@ add_compile_options(
 )
 
 add_link_options(
-
+    -nostdlib
     --specs=nano.specs
     -mcpu=cortex-m4
     -mfpu=fpv4-sp-d16
