@@ -17,8 +17,6 @@ set(CMAKE_CXX_COMPILER_WORKS 1)
 set(LINKER_SCRIPT "${CMAKE_CURRENT_SOURCE_DIR}/src/Device_Startup/same51n20a_flash.ld")
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -T ${LINKER_SCRIPT}")
 
-message("Compiler Version:" ${CMAKE_CXX_COMPILER_VERSION})
-
 add_compile_options(
     -x
     c

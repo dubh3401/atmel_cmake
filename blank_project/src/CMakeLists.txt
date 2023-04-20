@@ -11,6 +11,7 @@ set(LIB_HEADERS
     driver_init.h
 )
 
+# add main dependences
 add_subdirectory(hal)
 add_subdirectory(hri)
 add_subdirectory(hpl)
