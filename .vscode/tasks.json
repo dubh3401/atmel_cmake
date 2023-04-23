@@ -1,0 +1,25 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cmake: build",
+            "command": "cmake -S ${workspaceRoot}/blank_project -B ${workspaceRoot}/blank_project/build; cmake --build ${workspaceRoot}/blank_project/build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "cmake: clean-build",
+            "command": "cmake -S ${workspaceRoot}/blank_project -B ${workspaceRoot}/blank_project/build; cmake --build ${workspaceRoot}/blank_project/build --clean-first",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

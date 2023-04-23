@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "utils_assert.h": "c",
+        "compiler.h": "c",
+        "parts.h": "c"
+    }
+}
