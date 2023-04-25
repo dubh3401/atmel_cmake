@@ -3,17 +3,17 @@ cmake_minimum_required(VERSION 3.23)
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 # define project
-project(testProj C CXX)
+project(testProj C)
 set(PROJECT_NAME "testProj")
 set(CMAKE_INCLUDE_CURRENT_DIR TRUE)
 
-list(
-    APPEND PROJECT_SOURCES
+set(PROJECT_SOURCES
     main.c
 )
 
 # define MCU for project
 add_definitions(-D__ATSAME51N20A__)
+add_definitions(-DDEBUG)
 
 # incldue root source folder (each added sub dir needs its own cmaklists.txt)
 add_subdirectory(src)

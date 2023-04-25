@@ -15,7 +15,7 @@
         {
             "type": "shell",
             "label": "cmake: clean-build",
-            "command": "cmake -S ${workspaceRoot}/blank_project -B ${workspaceRoot}/blank_project/build; cmake --build ${workspaceRoot}/blank_project/build --clean-first",
+            "command": "cmake --build ${workspaceRoot}/blank_project/build --clean-first -v",
             "group": {
                 "kind": "build",
                 "isDefault": true

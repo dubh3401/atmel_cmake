@@ -30,29 +30,29 @@
             "request": "launch",
             "cwd": "${workspaceRoot}",
             "program": "C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/testProj.elf",
-            "preLaunchTask": "cmake: clean- build"
+            "preLaunchTask": "cmake: clean-build"
         },
         {
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/testProj.elf",
+            "program": "${workspaceRoot}/blank_project/build/testProj.elf",
             "args": [],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${workspaceRoot}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "debugServerArgs": "-f ${workspaceRoot}/blank_project/blank_project/tools/openocd/atsame51_jlink.cfg -c \"program ${workspaceRoot}/blank_project/blank_project/build/testProj.elf verify reset exit\" ",
+            "debugServerArgs": "-f ${workspaceRoot}/blank_project/tools/openocd/atsame51_jlink.cfg -c \"program C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/testProj.elf verify reset\" ",
             "miDebuggerPath": "C:/SysGCC/arm-eabi/bin/arm-none-eabi-gdb.exe",
             "setupCommands": [
                 {
-                    "text": "-file-exec-and-symbols C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/testProj.elf",
+                    "text": "-file-exec-and-symbols ${workspaceRoot}/blank_project/build/testProj.elf",
                     "description": "load file",
                     "ignoreFailures": false
                 },
                 {
-                    "text": "-target-select remote localhost:3333",
+                    "text": " target select remote localhost:3333",
                     "description": "connect to target",
                     "ignoreFailures": false
                 },
@@ -91,7 +91,7 @@
             "name": "testsProj Flash debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/testProj.elf",
+            "program": "${workspaceRoot}/blank_project/build/testProj.elf",
             "args": [],
             "stopAtEntry": true,
             "cwd": "C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project",

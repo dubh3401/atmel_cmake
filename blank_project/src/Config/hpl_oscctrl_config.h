@@ -253,7 +253,7 @@
 // <i> Select the clock source
 // <id> dfll_ref_clock
 #ifndef CONF_DFLL_GCLK
-#define CONF_DFLL_GCLK GCLK_PCHCTRL_GEN_GCLK3_Val
+#define CONF_DFLL_GCLK GCLK_PCHCTRL_GEN_GCLK11_Val
 #endif
 
 // <h> Digital Frequency Locked Loop Control
@@ -404,7 +404,7 @@
 // <i> Select the clock source.
 // <id> fdpll0_ref_clock
 #ifndef CONF_FDPLL0_GCLK
-#define CONF_FDPLL0_GCLK GCLK_PCHCTRL_GEN_GCLK1_Val
+#define CONF_FDPLL0_GCLK GCLK_PCHCTRL_GEN_GCLK11_Val
 #endif
 
 // <h> Digital Phase Locked Loop Control
@@ -447,7 +447,7 @@
 // <i> This Clock divider is only for XOSC clock input to DPLL
 // <id> fdpll0_clock_div
 #ifndef CONF_FDPLL0_DIV
-#define CONF_FDPLL0_DIV 0x0
+#define CONF_FDPLL0_DIV 0x1
 #endif
 
 // <q> DCO Filter Enable
@@ -488,7 +488,7 @@
 // <0x3=>XOSC1 clock reference
 // <id> fdpll0_arch_refclk
 #ifndef CONF_FDPLL0_REFCLK
-#define CONF_FDPLL0_REFCLK 0x1
+#define CONF_FDPLL0_REFCLK 0x0
 #endif
 
 // <q> Wake Up Fast

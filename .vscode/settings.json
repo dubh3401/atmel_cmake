@@ -3,5 +3,6 @@
         "utils_assert.h": "c",
         "compiler.h": "c",
         "parts.h": "c"
-    }
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/blank_project"
 }

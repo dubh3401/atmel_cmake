@@ -30,4 +30,4 @@ target_include_directories(${LIB_NAME}
     ${CMAKE_CURRENT_SOURCE_DIR}/port
 )
 
-target_link_libraries(${LIB_NAME} PUBLIC lib_utils)
+target_link_libraries(${LIB_NAME} PUBLIC lib_utils atmel_libs)

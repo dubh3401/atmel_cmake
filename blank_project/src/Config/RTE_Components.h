@@ -39,7 +39,7 @@
  *
  * \acme_license_stop
  *
- * Project: blank_project
+ * Project: My Project
  * Target:  ATSAME51N20A 
  *
  **/
