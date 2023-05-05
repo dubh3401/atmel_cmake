@@ -28,4 +28,6 @@ add_executable(
 )
 
 # source dependencies
-target_link_libraries(${EXECUTABLE_NAME} PUBLIC atmel_start)
+target_link_libraries(${EXECUTABLE_NAME} PUBLIC lib_hal lib_hri lib_atmel_device atmel_start)
+
+# target_link_libraries(${EXECUTABLE_NAME} PUBLIC atmel_start)

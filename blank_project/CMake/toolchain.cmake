@@ -20,43 +20,47 @@ set(LINKER_SCRIPT "${CMAKE_CURRENT_SOURCE_DIR}/src/Device_Startup/same51n20a_fla
 
 # set(CMAKE_C_LINK_EXECUTABLE "${CMAKE_LINKER}")
 add_compile_options(
+
     -x c
     -Wall
 
-    # -mthumb
+    -mthumb
     -Og
     -ffunction-sections
     -mlong-calls
     -g3
 
-    # -nodefaultlibs
-
-    # --specs=nano.specs
-    -mcpu=cortex-m4 -c
+    -mcpu=cortex-m4
+    -c
     -std=gnu99
 
-    # -nostdlib
     -mfloat-abi=softfp
     -mfpu=fpv4-sp-d16
+
+    # -v
+    -MP
 )
 
 add_link_options(
     -mthumb
 
     # -nodefaultlibs
-    -nostdlib
-    --specs=nano.specs
 
-    # -Wl,--gc-sections
+    # -nostdlib
+    --specs=nano.specs
 
     # --start-group -lm -Wl
     -mcpu=cortex-m4
     -Wl,--start-group -lm -Wl,--end-group -L"../Device_Startup/"
     -T ${LINKER_SCRIPT}
 
+    -Wl,--gc-sections
+
     # -mfpu=fpv4-sp-d16
     # -mfloat-abi=softfp
     -Xlinker --print-memory-usage
 
-    # -mthumb -Wl,-Map="$(OutputFil/eName).map" --specs=nano.specs -Wl,--start-group -lm -Wl,--end-group -L"C:\Users\PC_Elisabeth\Documents\Tests\atmel_test\My Project\Device_Startup" -Wl,--gc-sections -mcpu=cortex-m4 -Tsame51n20a_flash.ld
+    # -v
+
+    # -mthumb -Wl,-Map="$(OutputFil/eName).map" --specs=nano.specs -Wl,--start-group -lm -Wl,--end-group -L"C:/Users/PC_Elisabeth/Documents/Tests/atmel_test/My Project/Device_Startup" -Wl,--gc-sections -mcpu=cortex-m4 -Tsame51n20a_flash.ld
 )

@@ -15,7 +15,6 @@
             "runToEntryPoint": "main",
             "showDevDebugOutput": "both"
         },
-        {},
         {
             "name": "build",
             "type": "cppdbg",
@@ -97,12 +96,12 @@
             "cwd": "C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project",
             "environment": [],
             "externalConsole": false,
-            "debugServerArgs": "-f C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/tools/openocd/atsame51_jlink.cfg -c init -c \"reset init\"",
             "serverLaunchTimeout": 20000,
-            "filterStderr": true,
+            "filterStderr": false,
             "filterStdout": false,
             "serverStarted": "target halted due to debug-request, current mode: Thread",
-            "preLaunchTask": "cmake: build",
+            "preLaunchTask": "start openocd server",
+            // "postDebugTask": "stop openocd server",
             "setupCommands": [
                 {
                     "text": "-file-exec-and-symbols C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/testProj.elf",
@@ -114,10 +113,10 @@
                     "description": "connect to target",
                     "ignoreFailures": false
                 },
-                {
-                    "text": "-interpreter-exec console \"monitor endian little\"",
-                    "ignoreFailures": false
-                },
+                // {
+                //     "text": "-interpreter-exec console \"monitor endian little\"",
+                //     "ignoreFailures": false
+                // },
                 {
                     "text": "-interpreter-exec console \"monitor reset\"",
                     "ignoreFailures": false
@@ -128,11 +127,6 @@
                 },
                 {
                     "text": "-interpreter-exec console \"monitor arm semihosting enable\"",
-                    "ignoreFailures": false
-                },
-                {
-                    "text": "-target-nload",
-                    "description": "flash target",
                     "ignoreFailures": false
                 }
             ],
@@ -147,13 +141,8 @@
                 "name": "launch debugger connection",
                 "type": "cppdbg",
                 "request": "launch",
-                "miDebuggerPath": "C:/SysGCC/arm-eabi/bin/arm-none-eabi-gdb.exe",
-                // "miDebuggerArgs": "debugger connection",
-                "MIMode": "gdb",
                 "program": "C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/build/testProj.elf",
-                // "debugServerPath": "openocd"
-                // "MIMode": "debugger connection",
-                // "MIMode": "debugger connection",
+                "miDebuggerPath": "C:/SysGCC/arm-eabi/bin/arm-none-eabi-gdb.exe",
             }
             // "linux": {
             //     "MIMode": "gdb",

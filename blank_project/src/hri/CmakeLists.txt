@@ -5,10 +5,47 @@ set(LIB_SOURCES
 
 set(LIB_HEADERS
     hri_ac_e51.h
+    hri_adc_e51.h
+    hri_aes_e51.h
+
+    hri_can_e51.h
+    hri_ccl_e51.h
+    hri_cmcc_e51.h
+    hri_dac_e51.h
+    hri_dmac_e51.h
+    hri_dsu_e51.h
     hri_e51.h
+    hri_eic_e51.h
+    hri_evsys_e51.h
+    hri_freqm_e51.h
+    hri_gclk_e51.h
+    hri_hmatrixb_e51.h
+    hri_i2s_e51.h
+    hri_icm_e51.h
+    hri_mclk_e51.h
+    hri_nvmctrl_e51.h
+    hri_osc32kctrl_e51.h
+    hri_oscctrl_e51.h
+    hri_pac_e51.h
+    hri_pcc_e51.h
+    hri_pdec_e51.h
+    hri_pm_e51.h
+    hri_port_e51.h
+    hri_qspi_e51.h
+    hri_ramecc_e51.h
+    hri_rstc_e51.h
+    hri_rtc_e51.h
+    hri_sdhc_e51.h
+    hri_sercom_e51.h
+    hri_supc_e51.h
+    hri_tcc_e51.h
+    hri_tc_e51.h
+    hri_trng_e51.h
+    hri_usb_e51.h
+    hri_wdt_e51.h
 )
 
-add_library(${LIB_NAME} STATIC ${LIB_SOURCES} ${LIB_HEADERS})
+add_library(${LIB_NAME} STATIC ${LIB_HEADERS})
 
 set_target_properties(${LIB_NAME} PROPERTIES LINKER_LANGUAGE C)
 target_include_directories(${LIB_NAME}

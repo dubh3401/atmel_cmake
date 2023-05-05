@@ -15,11 +15,65 @@
         {
             "type": "shell",
             "label": "cmake: clean-build",
-            "command": "cmake --build ${workspaceRoot}/blank_project/build --clean-first -v",
+            "command": "cmake --build ${workspaceRoot}/blank_project/build --clean-first",
+            // "command": "cmake -D CMAKE_TOOLCHAIN_FILE:PATH=\"CMake/toolchain.cmake\" --debug-trycompile ./blank_project/build",
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "type": "shell",
+            "label": "openocd: start",
+            "command": "openocd -f C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/tools/openocd/atsame51_jlink.cfg -C 'reset init'",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "start openocd server",
+            "type": "shell",
+            "isBackground": true,
+            "command": "openocd -f C:/Users/PC_Elisabeth/Documents/SBQ/creativity_day/blank_atmel_project/blank_project/blank_project/tools/openocd/atsame51_jlink.cfg", //\"reset init\"",
+            // "presentation": {
+            //     "reveal": "silent"
+            // },
+            "problemMatcher": [
+                {
+                    "pattern": [
+                        {
+                            "regexp": ".",
+                            "file": 1,
+                            "line": 1,
+                            "column": 1,
+                            "message": 1
+                        }
+                    ],
+                    "background": {
+                        "activeOnStart": true,
+                        "beginsPattern": {
+                            "regexp": "."
+                        },
+                        "endsPattern": {
+                            "regexp": "."
+                        }
+                    },
+                }
+            ]
+        },
+        {
+            "label": "stop openocd server",
+            "command": "echo ${input:terminate_openocd}",
+            "type": "shell"
+        },
+    ],
+    "inputs": [
+        {
+            "id": "terminate_openocd",
+            "type": "command",
+            "command": "workbench.action.tasks.terminate",
+            "args": "start openocd server"
         }
     ]
 }
